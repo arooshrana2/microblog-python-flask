@@ -1,0 +1,156 @@
+html{
+    font-family: Lato, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+.navbar{
+    width: 640px;
+    margin: 50px auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.navbar__brand{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo{
+    margin-right: 30px;
+}
+
+.navbar__navigation{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    color: #737272;
+}
+
+.navbar__navigation-item{
+    margin-left: 50px;
+}
+
+.navbar__item{
+    color: inherit;
+    text-decoration: none;
+}
+
+.main{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form__input{
+    width: 100%;
+}
+
+.form__label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__textarea{
+    width: inherit;
+    padding: 20px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #f3f6f6;
+    margin-bottom: 10px;
+}
+
+.form__submit{
+    background-color: #3cd0ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__submit:hover{
+    background-color:#43cbf5; 
+}
+
+.entry{
+    margin-top: 50px;
+}
+
+.entry__title{
+    display: inline;
+    font-size: 18px;
+}
+
+.entry__time{
+    color: #8a7272;
+}
+
+.entry__content{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #304360;
+    color: #f2f2f2;
+    border-top: 4px solid #000000;
+    font-size: 12px;
+    padding: 40px 0;
+}
+
+.footer__content{
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .left{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer__item{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
