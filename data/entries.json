@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Just finished my trip to Paris! Amazing food and culture.",
+    "date": "2026-03-25",
+    "blog_name": "travel"
+  },
+  {
+    "content": "Learned about React hooks today. Really powerful for state management.",
+    "date": "2026-03-24",
+    "blog_name": "tech"
+  },
+  {
+    "content": "Had a great day at the beach with friends.",
+    "date": "2026-03-23",
+    "blog_name": "life"
+  },
+  {
+    "content": "Spending a quiet evening reading a good book.",
+    "date": "2026-03-25",
+    "blog_name": "life"
+  }
+]
